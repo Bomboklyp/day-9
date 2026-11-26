@@ -142,7 +142,7 @@ export async function verifyHttp(base: string, database: Pool) {
     await agent.call(`/api/${catalog}`, "POST", { name: "Forbidden" }, 403);
   const marker = await operator.request(1043);
   assert.equal(marker.title, "не работает перчик");
-  assert.equal(marker.description, "Учебная проверка оборудования");
+  assert.equal(marker.description, "Витя не работает");
   assert.equal(
     (await operator.call<ApiRequestsResponse>("/api/requests?q=%231043"))
       .data[0]?.id,

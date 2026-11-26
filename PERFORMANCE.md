@@ -53,3 +53,6 @@ npm run perf -- release
 Данные: [release.json](docs/performance/release.json). Полные 12 отчётов: [lighthouse-release-reports.zip](docs/performance/lighthouse-release-reports.zip). SHA-256 app/server/shared, конфигурации и lockfile: `695cc08dabd73adfa374b3d2aca95306f19868eb506f387aef7e030438afbfed`.
 
 Это лабораторные показатели. Полевые Core Web Vitals, INP, длительные сессии, сетевые задержки удалённого PostgreSQL и реальный production URL не измерены. После публикации нужен повтор внешнего аудита.
+
+
+26 ноября после измерений восстановлен текст описания контрольной заявки №1043. Новые измерения для этой правки не проводились; записанный sourceHash относится к измеренной версии до изменения seed-данных.

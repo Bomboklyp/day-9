@@ -7,7 +7,7 @@ function createProjectRequest(id: number): WorkflowRequest {
   return {
     id,
     title: projectRequestTitle,
-    description: "Учебная проверка оборудования",
+    description: "Витя не работает",
     client: "АО «Вектор»",
     status: "new",
     priority: "urgent",
