@@ -1,0 +1,124 @@
+.public-header {
+  height: 88px;
+  padding: 24px var(--gutter);
+  background: #23204d;
+}
+.public-nav {
+  font-family: "Montserrat Variable", sans-serif;
+}
+.public-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 64px var(--gutter);
+}
+.faq-answer {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-height: 110px;
+}
+.faq-answer p,
+.help-category p {
+  color: #b9b3d4;
+}
+.help-categories {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+.help-category {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-height: 170px;
+}
+.article-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  min-height: 106px;
+}
+.article-card p {
+  color: #b9b3d4;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.article-card:hover {
+  background: #292555;
+  color: #e8e7ec;
+  border-color: #7066b2;
+}
+.article-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+}
+.article-body section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.article-feedback {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.feedback-buttons {
+  display: flex;
+  gap: 12px;
+}
+.feedback-buttons [aria-pressed="true"] {
+  border-color: #8f85ff;
+  background: #2f2a6a;
+}
+.public-empty {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.public-error {
+  min-height: calc(100dvh - 88px);
+  padding-bottom: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.public-article h1 {
+  overflow-wrap: anywhere;
+}
+@media (max-width: 1023px) {
+  .help-categories {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 650px) {
+  .help-categories {
+    grid-template-columns: 1fr;
+  }
+  .public-content {
+    padding-top: 64px;
+  }
+}
+
+.hero-picture {
+  display: block;
+  width: 460px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.hero-picture > .hero-art {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.public-layout:has(.public-error) {
+  padding-bottom: 0;
+}

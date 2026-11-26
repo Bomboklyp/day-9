@@ -1,0 +1,7 @@
+{
+  "expectMismatch": true,
+  "warnings": [
+    "[Vue warn]: Hydration node mismatch:\n- rendered on server: JSHandle@node  \n- expected on client: p",
+    "Hydration completed but contains mismatches."
+  ]
+}

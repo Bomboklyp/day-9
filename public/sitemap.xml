@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>http://127.0.0.1:3008/</loc></url>
+  <url><loc>http://127.0.0.1:3008/faq</loc></url>
+  <url><loc>http://127.0.0.1:3008/help</loc></url>
+  <url><loc>http://127.0.0.1:3008/articles</loc></url>
+  <url><loc>http://127.0.0.1:3008/articles/kak-sozdat-zayavku</loc></url>
+  <url><loc>http://127.0.0.1:3008/articles/kak-otslezhivat-status</loc></url>
+  <url><loc>http://127.0.0.1:3008/articles/kak-dobavit-kommentariy</loc></url>
+  <url><loc>http://127.0.0.1:3008/articles/kak-podtverdit-reshenie</loc></url>
+</urlset>

@@ -1,0 +1,150 @@
+{
+  "baseline": "Day 7 screenshots",
+  "threshold": 0.1,
+  "comparisons": [
+    {
+      "name": "8-404-1280.png",
+      "width": 1280,
+      "height": 900,
+      "differentPixels": 0,
+      "referenceSha256": "167a7a717a104bc8bc4ca650bf0a874075c1f35afa6605456b63eb8b8cccab3c",
+      "currentSha256": "167a7a717a104bc8bc4ca650bf0a874075c1f35afa6605456b63eb8b8cccab3c"
+    },
+    {
+      "name": "8-404-360.png",
+      "width": 360,
+      "height": 813,
+      "differentPixels": 0,
+      "referenceSha256": "fc9d035b281162a23a7d03add167983b74c02c775cc2a9f6d19348c240f26240",
+      "currentSha256": "fc9d035b281162a23a7d03add167983b74c02c775cc2a9f6d19348c240f26240"
+    },
+    {
+      "name": "8-404-768.png",
+      "width": 768,
+      "height": 1024,
+      "differentPixels": 0,
+      "referenceSha256": "16b8afc2dd4f50130cfed88d2dcd5a9a0398da7e1d21f493d795072c3a4b577c",
+      "currentSha256": "16b8afc2dd4f50130cfed88d2dcd5a9a0398da7e1d21f493d795072c3a4b577c"
+    },
+    {
+      "name": "8-article-1280.png",
+      "width": 1280,
+      "height": 900,
+      "differentPixels": 0,
+      "referenceSha256": "99fa3934b683c6740f322032c91cd770e9f539b5b74f82641be7e59d9a9af8cf",
+      "currentSha256": "99fa3934b683c6740f322032c91cd770e9f539b5b74f82641be7e59d9a9af8cf"
+    },
+    {
+      "name": "8-article-360.png",
+      "width": 360,
+      "height": 1132,
+      "differentPixels": 0,
+      "referenceSha256": "4a7039c397917bba6acbc4167f06ce660d4a5125363694c5fe85fb4db6b541f1",
+      "currentSha256": "4a7039c397917bba6acbc4167f06ce660d4a5125363694c5fe85fb4db6b541f1"
+    },
+    {
+      "name": "8-article-768.png",
+      "width": 768,
+      "height": 1024,
+      "differentPixels": 0,
+      "referenceSha256": "3f7838d0816169d5f90a0cd34d160fc4721e3db37f9c424a5b7aa946d500dee6",
+      "currentSha256": "3f7838d0816169d5f90a0cd34d160fc4721e3db37f9c424a5b7aa946d500dee6"
+    },
+    {
+      "name": "8-articles-1280.png",
+      "width": 1280,
+      "height": 1190,
+      "differentPixels": 0,
+      "referenceSha256": "c94ce7bc2469e25fd71b9347f74e0e8a398f513712707edf0826587b2abc0d81",
+      "currentSha256": "c94ce7bc2469e25fd71b9347f74e0e8a398f513712707edf0826587b2abc0d81"
+    },
+    {
+      "name": "8-articles-360.png",
+      "width": 360,
+      "height": 1573,
+      "differentPixels": 0,
+      "referenceSha256": "a2f8895f7616fc392719b53d4b751816186d6a52de7752c413654aefd9079e0a",
+      "currentSha256": "a2f8895f7616fc392719b53d4b751816186d6a52de7752c413654aefd9079e0a"
+    },
+    {
+      "name": "8-articles-768.png",
+      "width": 768,
+      "height": 1360,
+      "differentPixels": 0,
+      "referenceSha256": "6ba66e79dd266d9a541708b749c2a510bd93a6b604d9e71a0e5980c63330bf0e",
+      "currentSha256": "6ba66e79dd266d9a541708b749c2a510bd93a6b604d9e71a0e5980c63330bf0e"
+    },
+    {
+      "name": "8-faq-1280.png",
+      "width": 1280,
+      "height": 1094,
+      "differentPixels": 0,
+      "referenceSha256": "066ae373ada0fb8ee9aa2dbfc85770313462f41a52f2964d9e67aa3201d22039",
+      "currentSha256": "92aa8897714c250e9d13be43a23600f9fbfe8f54e0f29add30b20e558a8b45c9"
+    },
+    {
+      "name": "8-faq-360.png",
+      "width": 360,
+      "height": 1269,
+      "differentPixels": 0,
+      "referenceSha256": "34b6d9b341bd424895ce86886548f2357c9f67f5947553d3536e70b216a1a6a5",
+      "currentSha256": "34b6d9b341bd424895ce86886548f2357c9f67f5947553d3536e70b216a1a6a5"
+    },
+    {
+      "name": "8-faq-768.png",
+      "width": 768,
+      "height": 1110,
+      "differentPixels": 0,
+      "referenceSha256": "edcd00b20e71da33696c6488411617890b93a89059dba6540259c8f7ef261792",
+      "currentSha256": "edcd00b20e71da33696c6488411617890b93a89059dba6540259c8f7ef261792"
+    },
+    {
+      "name": "8-help-1280.png",
+      "width": 1280,
+      "height": 1254,
+      "differentPixels": 0,
+      "referenceSha256": "d5055d6bc02ca9d0827d20b1c001d114edf6be79bd2876a87f5d66742e2a0bde",
+      "currentSha256": "d5055d6bc02ca9d0827d20b1c001d114edf6be79bd2876a87f5d66742e2a0bde"
+    },
+    {
+      "name": "8-help-360.png",
+      "width": 360,
+      "height": 1637,
+      "differentPixels": 0,
+      "referenceSha256": "cc4c270b808d79e681975d0a2175324e74e7ed26ba3e6b9164258f128bb9f9ab",
+      "currentSha256": "cc4c270b808d79e681975d0a2175324e74e7ed26ba3e6b9164258f128bb9f9ab"
+    },
+    {
+      "name": "8-help-768.png",
+      "width": 768,
+      "height": 1424,
+      "differentPixels": 0,
+      "referenceSha256": "54ab5dc7c38a6dff6fcf2ec490eb5235430feedf296770ba4d9adec42b669534",
+      "currentSha256": "54ab5dc7c38a6dff6fcf2ec490eb5235430feedf296770ba4d9adec42b669534"
+    },
+    {
+      "name": "8-landing-1280.png",
+      "width": 1280,
+      "height": 1160,
+      "differentPixels": 0,
+      "referenceSha256": "2c232b6c595c5bf22bacf3d5ea477705d94f960f06345c0497691378255f4c7f",
+      "currentSha256": "2c232b6c595c5bf22bacf3d5ea477705d94f960f06345c0497691378255f4c7f"
+    },
+    {
+      "name": "8-landing-360.png",
+      "width": 360,
+      "height": 1926,
+      "differentPixels": 0,
+      "referenceSha256": "4e6257e001c8a869481c00ae8fa80d39ec723a65a3bbd2dba5f7fdc84734a9af",
+      "currentSha256": "4e6257e001c8a869481c00ae8fa80d39ec723a65a3bbd2dba5f7fdc84734a9af"
+    },
+    {
+      "name": "8-landing-768.png",
+      "width": 768,
+      "height": 1720,
+      "differentPixels": 0,
+      "referenceSha256": "736ee34de92df4f1595e9e390d1ffd166fa6898f825bbc924900c18ad568dc99",
+      "currentSha256": "736ee34de92df4f1595e9e390d1ffd166fa6898f825bbc924900c18ad568dc99"
+    }
+  ]
+}

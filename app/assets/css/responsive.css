@@ -1,0 +1,173 @@
+@media (min-width: 1024px) {
+  .public-layout:not(.auth-layout) {
+    padding-bottom: 24px;
+  }
+  .requests-page:not(.requests-state-page),
+  .request-detail-page {
+    padding-bottom: 24px;
+  }
+}
+@media (max-width: 1199px) {
+  .request-columns {
+    grid-template-columns: 62px minmax(0, 1fr) 120px 130px;
+  }
+  .request-client,
+  .request-assignee {
+    display: none;
+  }
+  .request-filters {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .filters-simple {
+    grid-template-columns: minmax(0, 1fr) 180px 180px;
+  }
+}
+@media (max-width: 1023px) {
+  :root {
+    --gutter: 32px;
+  }
+  .header-role {
+    display: none;
+  }
+  .hero-row {
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 0;
+  }
+  .hero-copy {
+    width: 100%;
+  }
+  .hero-copy h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .workflow-steps,
+  .feature-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .public-footer {
+    flex-direction: column;
+  }
+  .public-footer > span:first-child {
+    width: 100%;
+  }
+}
+@media (max-width: 650px) {
+  :root {
+    --gutter: 16px;
+  }
+  h1 {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .app-nav,
+  .public-nav {
+    display: none;
+  }
+  .menu-button {
+    display: inline-flex;
+  }
+  .public-header > .brand {
+    font-size: 20px;
+  }
+  .public-header {
+    gap: 24px;
+  }
+  .stats-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .stat-value {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .desktop-request-list {
+    display: none;
+  }
+  .mobile-request-list {
+    display: block;
+  }
+  .request-filters,
+  .filters-simple {
+    grid-template-columns: 1fr;
+  }
+  .request-filters .search-field {
+    min-height: 74px;
+  }
+  .pagination {
+    flex-wrap: wrap;
+  }
+  .pagination > p {
+    flex: 0 0 100%;
+  }
+  .request-filters .field {
+    width: 100%;
+  }
+  .detail-columns {
+    grid-template-columns: 1fr;
+  }
+  .parameter-panel {
+    grid-row: auto;
+  }
+  .request-detail-page .button-tertiary {
+    align-self: flex-start;
+  }
+  .profile-form > .button,
+  .profile-page > .button {
+    align-self: stretch;
+  }
+  .hero-copy h1 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .hero-art {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+  }
+  .hero-copy > .button {
+    align-self: stretch;
+  }
+  .workflow-steps,
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+  .features-section > h2 {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .login-card h1 {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .login-card > .button {
+    align-self: stretch;
+  }
+  .modal .form-grid {
+    grid-template-columns: 1fr;
+  }
+  .modal-footer {
+    flex-wrap: wrap;
+  }
+  .error-content {
+    padding: 40px 16px;
+  }
+  .error-content h1 {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .toast {
+    font-size: 12px;
+    line-height: 18px;
+    gap: 8px;
+  }
+  .header-bell {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 650px) {
+  .dashboard-page > .button,
+  .requests-page > .button {
+    align-self: stretch;
+  }
+}

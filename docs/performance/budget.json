@@ -1,0 +1,12 @@
+{
+  "profile": "mobile, simulated 4x CPU / 150 ms RTT / 1.6 Mbps",
+  "runs": 3,
+  "median": {
+    "lcpMs": 2500,
+    "cls": 0.1,
+    "tbtMs": 200,
+    "scriptBytes": 163840,
+    "transferBytes": 512000
+  },
+  "minimumScore": 90
+}

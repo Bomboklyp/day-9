@@ -1,0 +1,227 @@
+{
+  "day": 9,
+  "status": "passed",
+  "testedAt": "2026-11-26T02:40:30.466Z",
+  "http": {
+    "createdId": 1044,
+    "statuses": [
+      200,
+      201,
+      400,
+      401,
+      403,
+      404,
+      409,
+      422
+    ],
+    "roles": 4
+  },
+  "product": {
+    "migrationUpgrade": true,
+    "sla": true,
+    "escalation": true,
+    "attachments": true,
+    "concurrentFileLimit": true,
+    "notifications": true,
+    "analytics": true
+  },
+  "release": {
+    "health": true,
+    "headers": true,
+    "privateHtml": true,
+    "origin": true,
+    "loginRateLimit": true,
+    "cookie": true
+  },
+  "browser": {
+    "startTime": "2026-11-26T02:39:38.576Z",
+    "duration": 51868.255,
+    "expected": 26,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "persistedAfterRestart": true,
+  "vitest": {
+    "files": 10,
+    "passed": 37
+  },
+  "e2e": {
+    "passed": 26,
+    "failed": 0
+  },
+  "dependencyAudit": {
+    "vulnerabilities": 0
+  },
+  "docker": {
+    "configValidated": true,
+    "containersExecuted": false
+  },
+  "ci": {
+    "workflowValidated": true,
+    "remoteRun": false
+  },
+  "publication": {
+    "repository": null,
+    "demoUrl": null
+  },
+  "freshEnvironment": {
+    "npmCi": true,
+    "prepare": true,
+    "productionBuild": true,
+    "realPostgresHttp": true,
+    "privateEnvCopied": false
+  },
+  "demoVideo": {
+    "recordedBy": "user",
+    "provided": false
+  },
+  "performance": {
+    "measuredAt": "2026-11-24T14:54:45.086Z",
+    "runs": 12,
+    "budgetChecks": [
+      {
+        "path": "/",
+        "passed": true
+      },
+      {
+        "path": "/help",
+        "passed": true
+      },
+      {
+        "path": "/articles/kak-sozdat-zayavku",
+        "passed": true
+      },
+      {
+        "path": "/requests",
+        "passed": true
+      }
+    ],
+    "medians": [
+      {
+        "path": "/",
+        "score": 98,
+        "lcpMs": 2414.922600000001,
+        "cls": 0,
+        "tbtMs": 0,
+        "fcpMs": 754.5398,
+        "ttfbMs": 1,
+        "transferBytes": 186184,
+        "scriptBytes": 98409,
+        "imageBytes": 4457,
+        "decodedScriptBytes": 262317
+      },
+      {
+        "path": "/help",
+        "score": 100,
+        "lcpMs": 753.8435999999999,
+        "cls": 0,
+        "tbtMs": 7.500000000000227,
+        "fcpMs": 753.8435999999999,
+        "ttfbMs": 6,
+        "transferBytes": 192853,
+        "scriptBytes": 101484,
+        "imageBytes": 0,
+        "decodedScriptBytes": 265870
+      },
+      {
+        "path": "/articles/kak-sozdat-zayavku",
+        "score": 100,
+        "lcpMs": 754.7918,
+        "cls": 0,
+        "tbtMs": 0,
+        "fcpMs": 754.7918,
+        "ttfbMs": 1,
+        "transferBytes": 183022,
+        "scriptBytes": 99092,
+        "imageBytes": 0,
+        "decodedScriptBytes": 262436
+      },
+      {
+        "path": "/requests",
+        "score": 99,
+        "lcpMs": 1762.8077949307192,
+        "cls": 0,
+        "tbtMs": 64.49999999999932,
+        "fcpMs": 1762.8077949307192,
+        "ttfbMs": 22,
+        "transferBytes": 237625,
+        "scriptBytes": 122638,
+        "imageBytes": 0,
+        "decodedScriptBytes": 298854
+      }
+    ]
+  },
+  "quality": {
+    "architecture": 0,
+    "typecheck": 0,
+    "lint": 0
+  },
+  "productionSmoke": {
+    "passed": true,
+    "roles": [
+      "operator",
+      "client",
+      "agent",
+      "admin"
+    ],
+    "browserErrors": [],
+    "health": 200
+  },
+  "architecture": {
+    "files": 191,
+    "dependencies": 451,
+    "violations": 0,
+    "cycles": 0
+  },
+  "review": {
+    "reviewedAt": "2026-11-26T02:40:30.466Z",
+    "allDaysUnitIntegration": [
+      {
+        "day": 1,
+        "passed": 14
+      },
+      {
+        "day": 2,
+        "passed": 18
+      },
+      {
+        "day": 3,
+        "passed": 24
+      },
+      {
+        "day": 4,
+        "passed": 9
+      },
+      {
+        "day": 5,
+        "passed": 17
+      },
+      {
+        "day": 6,
+        "passed": 19
+      },
+      {
+        "day": 7,
+        "passed": 27
+      },
+      {
+        "day": 8,
+        "passed": 35
+      },
+      {
+        "day": 9,
+        "passed": 37
+      }
+    ],
+    "totalPassed": 200,
+    "allTypechecksPassed": true,
+    "allAvailableLintPassed": true,
+    "allArchitectureChecksPassed": true,
+    "commentCleanupDays": [
+      1,
+      2
+    ],
+    "ciHiddenReportsFixed": true
+  }
+}

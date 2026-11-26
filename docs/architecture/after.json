@@ -1,0 +1,2262 @@
+{
+  "files": 191,
+  "edges": [
+    {
+      "from": "shared/data/help.ts",
+      "to": "shared/types/content.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/admin/analytics.get.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/admin/analytics.get.ts",
+      "to": "server/utils/schemas.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/admin/analytics.get.ts",
+      "to": "server/services/analytics.ts",
+      "implicit": false
+    },
+    {
+      "from": "shared/types/api.ts",
+      "to": "shared/types/product.ts",
+      "implicit": false
+    },
+    {
+      "from": "shared/types/api.ts",
+      "to": "shared/types/request.ts",
+      "implicit": false
+    },
+    {
+      "from": "shared/types/api.ts",
+      "to": "shared/types/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/components/AppHeader.vue",
+      "to": "app/composables/useAuth.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/components/AppHeader.vue",
+      "to": "app/composables/useWorkflow.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/components/AppHeader.vue",
+      "to": "app/components/AppLogo.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/components/AppHeader.vue",
+      "to": "app/features/notifications/components/NotificationBell.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/components/AppHeader.vue",
+      "to": "app/components/PersonAvatar.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/components/AppHeader.vue",
+      "to": "app/components/AppIcon.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/components/AppHeader.vue",
+      "to": "app/components/AppModal.vue",
+      "implicit": true
+    },
+    {
+      "from": "server/api/admin/sla/index.get.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/admin/sla/index.get.ts",
+      "to": "server/services/sla.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/admin/sla/[priority].patch.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/admin/sla/[priority].patch.ts",
+      "to": "server/utils/schemas.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/admin/sla/[priority].patch.ts",
+      "to": "server/services/sla.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/attachments/[id].get.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/attachments/[id].get.ts",
+      "to": "server/utils/schemas.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/attachments/[id].get.ts",
+      "to": "server/services/attachments.ts",
+      "implicit": false
+    },
+    {
+      "from": "shared/types/product.ts",
+      "to": "shared/types/request.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/components/AppModal.vue",
+      "to": "app/components/AppIcon.vue",
+      "implicit": true
+    },
+    {
+      "from": "server/api/auth/login.post.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/auth/login.post.ts",
+      "to": "server/utils/schemas.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/auth/login.post.ts",
+      "to": "server/services/login.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/components/ArticleCard.vue",
+      "to": "shared/types/content.ts",
+      "implicit": false
+    },
+    {
+      "from": "shared/types/workflow.ts",
+      "to": "shared/types/product.ts",
+      "implicit": false
+    },
+    {
+      "from": "shared/types/workflow.ts",
+      "to": "shared/types/request.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/auth/logout.post.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/auth/profile.patch.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/auth/profile.patch.ts",
+      "to": "server/utils/schemas.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/auth/profile.patch.ts",
+      "to": "server/services/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/auth/register.post.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/auth/register.post.ts",
+      "to": "server/utils/schemas.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/auth/register.post.ts",
+      "to": "server/services/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/components/KnowledgeListing.vue",
+      "to": "shared/data/help.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/components/KnowledgeListing.vue",
+      "to": "app/composables/usePublicSearch.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/components/KnowledgeListing.vue",
+      "to": "app/composables/useArticles.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/components/KnowledgeListing.vue",
+      "to": "app/composables/usePageSeo.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/components/KnowledgeListing.vue",
+      "to": "app/components/ArticleCard.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/components/PersonAvatar.vue",
+      "to": "app/types/workflow.ts",
+      "implicit": false
+    },
+    {
+      "from": "shared/utils/permissions.ts",
+      "to": "shared/types/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/components/PriorityBadge.vue",
+      "to": "app/types/workflow.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/components/PriorityBadge.vue",
+      "to": "app/utils/requests.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/categories/index.get.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/categories/index.get.ts",
+      "to": "server/services/categories.ts",
+      "implicit": false
+    },
+    {
+      "from": "shared/utils/request-options.ts",
+      "to": "shared/types/request.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/categories/index.post.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/categories/index.post.ts",
+      "to": "server/services/categories.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/categories/index.post.ts",
+      "to": "server/utils/schemas.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/components/StatusBadge.vue",
+      "to": "app/types/workflow.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/components/StatusBadge.vue",
+      "to": "app/utils/requests.ts",
+      "implicit": false
+    },
+    {
+      "from": "shared/utils/request-query.ts",
+      "to": "shared/types/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "shared/utils/request-query.ts",
+      "to": "shared/utils/request-options.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/categories/[id].patch.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/categories/[id].patch.ts",
+      "to": "server/services/categories.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/categories/[id].patch.ts",
+      "to": "server/utils/schemas.ts",
+      "implicit": false
+    },
+    {
+      "from": "shared/utils/request-rules.ts",
+      "to": "shared/types/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "shared/utils/request-rules.ts",
+      "to": "shared/types/request.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/composables/useAdminCatalog.ts",
+      "to": "app/composables/useApi.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/composables/useAdminCatalog.ts",
+      "to": "app/features/users/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/composables/useAdminCatalog.ts",
+      "to": "app/features/requests/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/comments/index.get.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/comments/index.get.ts",
+      "to": "server/services/requests.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/comments/index.get.ts",
+      "to": "server/utils/request-id.ts",
+      "implicit": false
+    },
+    {
+      "from": "shared/utils/roles.ts",
+      "to": "shared/types/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/composables/useApi.ts",
+      "to": "app/features/auth/composables/useAuth.ts",
+      "implicit": false
+    },
+    {
+      "from": "shared/utils/sla.ts",
+      "to": "shared/types/product.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/comments/index.post.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/comments/index.post.ts",
+      "to": "server/services/comments.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/comments/index.post.ts",
+      "to": "server/utils/schemas.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/composables/useArticles.ts",
+      "to": "shared/types/content.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/composables/useAuth.ts",
+      "to": "app/features/auth/composables/useAuth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/customers/index.get.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/customers/index.get.ts",
+      "to": "server/services/customers.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/composables/useCatalogs.ts",
+      "to": "app/features/requests/composables/useCatalogs.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/customers/index.post.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/customers/index.post.ts",
+      "to": "server/services/customers.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/customers/index.post.ts",
+      "to": "server/utils/schemas.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/composables/useCommentForm.ts",
+      "to": "app/features/comments/composables/useCommentForm.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/customers/[id].patch.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/customers/[id].patch.ts",
+      "to": "server/services/customers.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/customers/[id].patch.ts",
+      "to": "server/utils/schemas.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/composables/usePublicSearch.ts",
+      "to": "app/composables/useDebounce.ts",
+      "implicit": true
+    },
+    {
+      "from": "server/api/health.get.ts",
+      "to": "server/services/health.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/composables/useRequestActions.ts",
+      "to": "app/features/requests/composables/useRequestActions.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/composables/useRequestCache.ts",
+      "to": "app/features/requests/composables/useRequestCache.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/notifications/index.get.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/notifications/index.get.ts",
+      "to": "server/services/notifications.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/notifications/read.patch.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/notifications/read.patch.ts",
+      "to": "server/utils/schemas.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/notifications/read.patch.ts",
+      "to": "server/services/notifications.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/composables/useRequestDraft.ts",
+      "to": "app/features/requests/composables/useRequestDraft.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/composables/useRequestQuery.ts",
+      "to": "app/features/requests/composables/useRequestQuery.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/public/articles/index.get.ts",
+      "to": "server/data/articles.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/public/articles/index.get.ts",
+      "to": "shared/types/content.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/composables/useRequests.ts",
+      "to": "app/features/requests/composables/useRequests.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/public/articles/[slug].get.ts",
+      "to": "server/data/articles.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/public/articles/[slug].get.ts",
+      "to": "shared/types/content.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/composables/useToast.ts",
+      "to": "app/features/notifications/composables/useToast.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/composables/useWorkflow.ts",
+      "to": "app/features/users/composables/useProfile.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/requests/index.get.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/requests/index.get.ts",
+      "to": "server/services/requests.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/requests/index.get.ts",
+      "to": "shared/utils/request-query.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/error.vue",
+      "to": "app/components/ErrorContent.vue",
+      "implicit": true
+    },
+    {
+      "from": "server/api/requests/index.post.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/requests/index.post.ts",
+      "to": "server/services/requests.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/requests/index.post.ts",
+      "to": "server/utils/schemas.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/requests/index.post.ts",
+      "to": "shared/utils/request-input.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/analytics/api.ts",
+      "to": "shared/types/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/analytics/api.ts",
+      "to": "shared/types/product.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/requests/[id]/attachments.get.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/requests/[id]/attachments.get.ts",
+      "to": "server/utils/request-id.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/requests/[id]/attachments.get.ts",
+      "to": "server/services/attachments.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/requests/[id]/attachments.post.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/requests/[id]/attachments.post.ts",
+      "to": "server/utils/request-id.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/requests/[id]/attachments.post.ts",
+      "to": "server/utils/read-upload.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/requests/[id]/attachments.post.ts",
+      "to": "server/services/attachments.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/requests/[id]/attachments.post.ts",
+      "to": "shared/utils/attachments.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/analytics/composables/useAnalytics.ts",
+      "to": "app/features/analytics/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/analytics/composables/useAnalytics.ts",
+      "to": "app/composables/useApi.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/requests/[id]/comments.post.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/requests/[id]/comments.post.ts",
+      "to": "server/services/comments.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/requests/[id]/comments.post.ts",
+      "to": "server/utils/request-id.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/requests/[id]/comments.post.ts",
+      "to": "server/utils/schemas.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/requests/[id].get.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/requests/[id].get.ts",
+      "to": "server/services/requests.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/requests/[id].get.ts",
+      "to": "server/utils/request-id.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/requests/[id].patch.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/requests/[id].patch.ts",
+      "to": "server/services/requests.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/requests/[id].patch.ts",
+      "to": "server/utils/request-id.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/requests/[id].patch.ts",
+      "to": "server/utils/schemas.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/attachments/api.ts",
+      "to": "shared/types/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/attachments/api.ts",
+      "to": "shared/types/product.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/users/index.get.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/users/index.get.ts",
+      "to": "server/services/users.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/attachments/components/RequestAttachments.vue",
+      "to": "app/features/attachments/composables/useAttachments.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/attachments/components/RequestAttachments.vue",
+      "to": "shared/utils/attachments.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/attachments/components/RequestAttachments.vue",
+      "to": "app/components/AppModal.vue",
+      "implicit": true
+    },
+    {
+      "from": "server/api/users/index.post.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/users/index.post.ts",
+      "to": "server/services/users.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/users/index.post.ts",
+      "to": "server/utils/schemas.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/users/[id].patch.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/users/[id].patch.ts",
+      "to": "server/services/users.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/api/users/[id].patch.ts",
+      "to": "server/utils/schemas.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/attachments/composables/useAttachments.ts",
+      "to": "app/features/attachments/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/attachments/composables/useAttachments.ts",
+      "to": "app/composables/useApi.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/attachments/composables/useAttachments.ts",
+      "to": "shared/utils/attachments.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/attachments/composables/useAttachments.ts",
+      "to": "app/lib/api-errors.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/data/articles.ts",
+      "to": "shared/types/content.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/auth/api.ts",
+      "to": "shared/types/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/data/project-request.ts",
+      "to": "shared/types/workflow.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/data/requests.ts",
+      "to": "shared/types/workflow.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/data/requests.ts",
+      "to": "server/data/project-request.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/auth/composables/useAuth.ts",
+      "to": "app/features/auth/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/auth/composables/useAuth.ts",
+      "to": "app/lib/api-errors.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/auth/composables/useAuth.ts",
+      "to": "shared/types/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/middleware/auth.ts",
+      "to": "server/utils/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/comments/api.ts",
+      "to": "shared/types/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/plugins/sla.ts",
+      "to": "server/services/notifications.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/comments/components/RequestComments.vue",
+      "to": "app/features/requests/state/requestUi.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/comments/components/RequestComments.vue",
+      "to": "app/features/comments/composables/useCommentForm.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/comments/components/RequestComments.vue",
+      "to": "app/features/notifications/composables/useToast.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/comments/components/RequestComments.vue",
+      "to": "app/types/workflow.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/repositories/analytics.ts",
+      "to": "server/utils/database.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/repositories/analytics.ts",
+      "to": "shared/types/product.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/repositories/analytics.ts",
+      "to": "shared/utils/request-options.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/comments/composables/useCommentActions.ts",
+      "to": "app/features/auth/composables/useAuth.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/comments/composables/useCommentActions.ts",
+      "to": "app/features/requests/state/requestUi.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/comments/composables/useCommentActions.ts",
+      "to": "app/features/requests/composables/useRequestCache.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/comments/composables/useCommentActions.ts",
+      "to": "app/composables/useApi.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/comments/composables/useCommentActions.ts",
+      "to": "app/features/comments/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/repositories/attachments.ts",
+      "to": "server/utils/database.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/repositories/attachments.ts",
+      "to": "shared/types/product.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/comments/composables/useCommentForm.ts",
+      "to": "app/features/comments/composables/useCommentActions.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/comments/composables/useCommentForm.ts",
+      "to": "app/features/auth/composables/useAuth.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/comments/composables/useCommentForm.ts",
+      "to": "app/features/requests/state/requestUi.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/comments/composables/useCommentForm.ts",
+      "to": "app/lib/api-errors.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/repositories/catalogs.ts",
+      "to": "server/utils/database.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/repositories/catalogs.ts",
+      "to": "shared/types/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/repositories/categories.ts",
+      "to": "server/utils/database.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/repositories/categories.ts",
+      "to": "shared/types/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/repositories/customers.ts",
+      "to": "server/utils/database.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/repositories/customers.ts",
+      "to": "shared/types/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/repositories/customers.ts",
+      "to": "shared/types/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/repositories/login-attempts.ts",
+      "to": "server/utils/database.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/repositories/notifications.ts",
+      "to": "server/utils/database.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/repositories/notifications.ts",
+      "to": "shared/types/product.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/repositories/notifications.ts",
+      "to": "shared/types/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/customers/api.ts",
+      "to": "shared/types/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/repositories/requests.ts",
+      "to": "shared/utils/sla.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/repositories/requests.ts",
+      "to": "server/utils/database.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/repositories/requests.ts",
+      "to": "shared/types/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/repositories/requests.ts",
+      "to": "shared/types/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/repositories/sessions.ts",
+      "to": "server/utils/database.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/repositories/sessions.ts",
+      "to": "shared/types/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/notifications/api.ts",
+      "to": "shared/types/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/notifications/api.ts",
+      "to": "shared/types/product.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/repositories/sla.ts",
+      "to": "shared/types/product.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/repositories/sla.ts",
+      "to": "server/utils/database.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/notifications/components/AppToast.vue",
+      "to": "app/features/notifications/composables/useToast.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/notifications/components/AppToast.vue",
+      "to": "app/components/AppIcon.vue",
+      "implicit": true
+    },
+    {
+      "from": "server/repositories/users.ts",
+      "to": "server/utils/database.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/repositories/users.ts",
+      "to": "shared/types/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/repositories/users.ts",
+      "to": "shared/types/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/notifications/components/NotificationBell.vue",
+      "to": "app/features/notifications/composables/useNotifications.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/notifications/components/NotificationBell.vue",
+      "to": "app/components/AppIcon.vue",
+      "implicit": true
+    },
+    {
+      "from": "server/services/analytics.ts",
+      "to": "server/repositories/analytics.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/notifications/composables/useNotifications.ts",
+      "to": "app/features/notifications/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/notifications/composables/useNotifications.ts",
+      "to": "app/composables/useApi.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/notifications/composables/useNotifications.ts",
+      "to": "app/lib/api-errors.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/attachments.ts",
+      "to": "shared/types/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/attachments.ts",
+      "to": "shared/utils/attachments.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/attachments.ts",
+      "to": "shared/utils/permissions.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/attachments.ts",
+      "to": "server/utils/database.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/attachments.ts",
+      "to": "server/repositories/attachments.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/attachments.ts",
+      "to": "server/repositories/requests.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/attachments.ts",
+      "to": "server/services/requests.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/auth.ts",
+      "to": "shared/types/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/auth.ts",
+      "to": "server/utils/schemas.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/auth.ts",
+      "to": "server/utils/database.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/auth.ts",
+      "to": "server/utils/password.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/auth.ts",
+      "to": "server/repositories/users.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/auth.ts",
+      "to": "server/repositories/customers.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/categories.ts",
+      "to": "server/repositories/categories.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/categories.ts",
+      "to": "server/repositories/catalogs.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/api.ts",
+      "to": "shared/types/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/comments.ts",
+      "to": "shared/types/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/comments.ts",
+      "to": "shared/utils/permissions.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/comments.ts",
+      "to": "server/utils/database.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/comments.ts",
+      "to": "server/repositories/requests.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/comments.ts",
+      "to": "server/repositories/comments.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/comments.ts",
+      "to": "server/services/requests.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/components/RequestActionModal.vue",
+      "to": "shared/utils/request-options.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/components/RequestActionModal.vue",
+      "to": "app/features/requests/composables/useRequestActionForm.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/components/RequestActionModal.vue",
+      "to": "app/components/AppModal.vue",
+      "implicit": true
+    },
+    {
+      "from": "server/services/customers.ts",
+      "to": "server/repositories/customers.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/customers.ts",
+      "to": "server/repositories/catalogs.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/components/RequestCard.vue",
+      "to": "app/types/workflow.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/components/RequestCard.vue",
+      "to": "app/components/StatusBadge.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/features/requests/components/RequestCard.vue",
+      "to": "app/components/PriorityBadge.vue",
+      "implicit": true
+    },
+    {
+      "from": "server/services/health.ts",
+      "to": "server/utils/database.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/login.ts",
+      "to": "server/utils/schemas.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/login.ts",
+      "to": "server/utils/password.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/login.ts",
+      "to": "server/repositories/login-attempts.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/login.ts",
+      "to": "server/services/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/components/RequestFeedback.vue",
+      "to": "app/features/requests/composables/useRequestActions.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/components/RequestFeedback.vue",
+      "to": "app/features/requests/state/requestUi.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/notifications.ts",
+      "to": "server/utils/database.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/notifications.ts",
+      "to": "server/repositories/notifications.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/notifications.ts",
+      "to": "shared/utils/sla.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/components/RequestFilters.vue",
+      "to": "app/types/workflow.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/components/RequestFilters.vue",
+      "to": "app/utils/requests.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/requests.ts",
+      "to": "server/services/notifications.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/requests.ts",
+      "to": "server/utils/database.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/requests.ts",
+      "to": "shared/types/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/requests.ts",
+      "to": "shared/types/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/requests.ts",
+      "to": "shared/utils/permissions.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/requests.ts",
+      "to": "shared/utils/request-rules.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/requests.ts",
+      "to": "shared/utils/request-options.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/requests.ts",
+      "to": "server/repositories/requests.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/requests.ts",
+      "to": "server/repositories/customers.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/requests.ts",
+      "to": "server/repositories/categories.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/requests.ts",
+      "to": "server/repositories/users.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/components/RequestList.vue",
+      "to": "app/types/workflow.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/components/RequestList.vue",
+      "to": "app/components/StatusBadge.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/features/requests/components/RequestList.vue",
+      "to": "app/components/PriorityBadge.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/features/requests/components/RequestList.vue",
+      "to": "app/features/requests/components/RequestCard.vue",
+      "implicit": true
+    },
+    {
+      "from": "server/services/sla.ts",
+      "to": "server/repositories/sla.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/sla.ts",
+      "to": "shared/types/product.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/components/RequestsOverview.vue",
+      "to": "app/features/requests/composables/useRequestQuery.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/components/RequestsOverview.vue",
+      "to": "app/features/requests/composables/useRequests.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/components/RequestsOverview.vue",
+      "to": "app/features/auth/composables/useAuth.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/components/RequestsOverview.vue",
+      "to": "app/features/users/composables/useProfile.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/components/RequestsOverview.vue",
+      "to": "app/lib/api-errors.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/components/RequestsOverview.vue",
+      "to": "app/features/requests/state/requestUi.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/components/RequestsOverview.vue",
+      "to": "app/features/requests/components/RequestFeedback.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/features/requests/components/RequestsOverview.vue",
+      "to": "app/features/requests/components/RequestStats.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/features/requests/components/RequestsOverview.vue",
+      "to": "app/features/requests/components/RequestFilters.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/features/requests/components/RequestsOverview.vue",
+      "to": "app/features/requests/components/RequestState.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/features/requests/components/RequestsOverview.vue",
+      "to": "app/features/requests/components/RequestList.vue",
+      "implicit": true
+    },
+    {
+      "from": "server/services/users.ts",
+      "to": "server/utils/database.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/users.ts",
+      "to": "server/utils/password.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/users.ts",
+      "to": "server/utils/schemas.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/users.ts",
+      "to": "server/repositories/users.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/users.ts",
+      "to": "server/repositories/customers.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/services/users.ts",
+      "to": "server/repositories/sessions.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/components/RequestState.vue",
+      "to": "app/components/AppIcon.vue",
+      "implicit": true
+    },
+    {
+      "from": "server/types/h3.d.ts",
+      "to": "shared/types/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/components/RequestStats.vue",
+      "to": "shared/types/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/components/RequestStats.vue",
+      "to": "app/components/StatCard.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/features/requests/components/RequestTimeline.vue",
+      "to": "app/types/workflow.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/utils/auth.ts",
+      "to": "shared/types/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/utils/auth.ts",
+      "to": "server/repositories/sessions.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/utils/auth.ts",
+      "to": "server/repositories/users.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/utils/auth.ts",
+      "to": "server/utils/password.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/components/RequestUndoToast.vue",
+      "to": "app/features/requests/state/requestUi.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/components/RequestUndoToast.vue",
+      "to": "app/features/requests/composables/useRequestActions.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/utils/database.ts",
+      "to": "server/utils/config.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useCatalogs.ts",
+      "to": "shared/types/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useCatalogs.ts",
+      "to": "app/composables/useApi.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useCatalogs.ts",
+      "to": "app/features/users/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useCatalogs.ts",
+      "to": "app/features/customers/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useCatalogs.ts",
+      "to": "app/features/requests/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequestActionForm.ts",
+      "to": "shared/types/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequestActionForm.ts",
+      "to": "app/types/workflow.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequestActionForm.ts",
+      "to": "app/features/users/types.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequestActionForm.ts",
+      "to": "shared/utils/request-rules.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequestActionForm.ts",
+      "to": "app/lib/api-errors.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequestActionForm.ts",
+      "to": "app/features/auth/composables/useAuth.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequestActionForm.ts",
+      "to": "app/features/requests/composables/useRequestActions.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequestActions.ts",
+      "to": "app/features/requests/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequestActions.ts",
+      "to": "app/features/requests/composables/useRequestCache.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequestActions.ts",
+      "to": "app/features/auth/composables/useAuth.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequestActions.ts",
+      "to": "app/composables/useApi.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequestActions.ts",
+      "to": "shared/types/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequestActions.ts",
+      "to": "app/features/requests/state/requestUi.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequestActions.ts",
+      "to": "app/lib/api-errors.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequestActions.ts",
+      "to": "shared/utils/request-rules.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequestActions.ts",
+      "to": "shared/utils/request-options.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequestCache.ts",
+      "to": "shared/types/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequestDraft.ts",
+      "to": "app/features/auth/composables/useAuth.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequestDraft.ts",
+      "to": "shared/types/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequestDraft.ts",
+      "to": "shared/utils/request-options.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/utils/schemas.ts",
+      "to": "shared/types/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequestQuery.ts",
+      "to": "app/composables/useDebounce.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequestQuery.ts",
+      "to": "app/types/workflow.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequestQuery.ts",
+      "to": "shared/utils/request-query.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/utils/seed.ts",
+      "to": "server/data/requests.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/utils/seed.ts",
+      "to": "shared/utils/request-options.ts",
+      "implicit": false
+    },
+    {
+      "from": "server/utils/seed.ts",
+      "to": "shared/types/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequests.ts",
+      "to": "app/features/users/mapUser.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequests.ts",
+      "to": "app/features/requests/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequests.ts",
+      "to": "app/features/auth/composables/useAuth.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequests.ts",
+      "to": "app/composables/useApi.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequests.ts",
+      "to": "app/features/requests/composables/useCatalogs.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequests.ts",
+      "to": "shared/types/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequests.ts",
+      "to": "app/features/requests/mapRequest.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/composables/useRequests.ts",
+      "to": "app/features/requests/state/requestUi.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/mapRequest.ts",
+      "to": "shared/types/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/mapRequest.ts",
+      "to": "app/types/workflow.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/mapRequest.ts",
+      "to": "app/utils/format.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/requests/state/requestUi.ts",
+      "to": "shared/types/request.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/sla/api.ts",
+      "to": "shared/types/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/sla/api.ts",
+      "to": "shared/types/product.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/sla/components/SlaPolicyCard.vue",
+      "to": "shared/types/product.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/sla/components/SlaPolicyCard.vue",
+      "to": "app/features/sla/composables/useSlaForm.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/sla/components/SlaPolicyCard.vue",
+      "to": "shared/utils/request-options.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/sla/components/SlaPolicyCard.vue",
+      "to": "app/components/PriorityBadge.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/features/sla/composables/useSlaForm.ts",
+      "to": "shared/types/product.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/sla/composables/useSlaForm.ts",
+      "to": "shared/utils/sla.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/sla/composables/useSlaForm.ts",
+      "to": "app/features/sla/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/sla/composables/useSlaForm.ts",
+      "to": "app/composables/useApi.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/sla/composables/useSlaPolicies.ts",
+      "to": "app/features/sla/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/sla/composables/useSlaPolicies.ts",
+      "to": "app/composables/useApi.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/users/api.ts",
+      "to": "shared/types/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/users/composables/useProfile.ts",
+      "to": "app/features/auth/composables/useAuth.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/users/composables/useProfile.ts",
+      "to": "app/stores/preferences.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/users/composables/useProfile.ts",
+      "to": "app/types/workflow.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/users/composables/useProfile.ts",
+      "to": "shared/utils/roles.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/users/composables/useProfile.ts",
+      "to": "app/utils/format.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/users/mapUser.ts",
+      "to": "shared/types/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/users/mapUser.ts",
+      "to": "app/features/users/types.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/features/users/types.ts",
+      "to": "shared/types/auth.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/layouts/default.vue",
+      "to": "app/features/requests/state/requestUi.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/layouts/default.vue",
+      "to": "app/composables/useAuth.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/layouts/default.vue",
+      "to": "app/composables/useWorkflow.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/layouts/default.vue",
+      "to": "app/components/AppHeader.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/layouts/default.vue",
+      "to": "app/features/requests/components/RequestUndoToast.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/layouts/default.vue",
+      "to": "app/features/notifications/components/AppToast.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/layouts/public.vue",
+      "to": "app/components/AppLogo.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/layouts/public.vue",
+      "to": "app/components/AppIcon.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/layouts/public.vue",
+      "to": "app/components/AppModal.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/middleware/auth.global.ts",
+      "to": "app/composables/useAuth.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/pages/admin/analytics.vue",
+      "to": "app/features/analytics/composables/useAnalytics.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/pages/admin/analytics.vue",
+      "to": "shared/utils/request-options.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/pages/admin/analytics.vue",
+      "to": "shared/utils/sla.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/pages/admin/analytics.vue",
+      "to": "app/features/requests/components/RequestState.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/admin/analytics.vue",
+      "to": "app/components/StatCard.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/admin/categories.vue",
+      "to": "app/composables/useAdminCatalog.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/admin/categories.vue",
+      "to": "app/features/requests/components/RequestState.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/admin/sla.vue",
+      "to": "app/features/sla/composables/useSlaPolicies.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/pages/admin/sla.vue",
+      "to": "app/features/requests/components/RequestState.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/admin/sla.vue",
+      "to": "app/features/sla/components/SlaPolicyCard.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/admin/users.vue",
+      "to": "app/composables/useAdminCatalog.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/admin/users.vue",
+      "to": "app/features/requests/components/RequestState.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/articles/index.vue",
+      "to": "app/components/KnowledgeListing.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/articles/[slug].vue",
+      "to": "shared/utils/content-date.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/pages/articles/[slug].vue",
+      "to": "app/composables/useArticles.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/articles/[slug].vue",
+      "to": "app/composables/usePageSeo.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/articles/[slug].vue",
+      "to": "app/components/ArticleFeedback.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/dashboard.vue",
+      "to": "shared/utils/request-query.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/pages/dashboard.vue",
+      "to": "app/utils/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/pages/dashboard.vue",
+      "to": "app/composables/useAuth.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/dashboard.vue",
+      "to": "app/composables/useRequests.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/dashboard.vue",
+      "to": "app/features/requests/components/RequestStats.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/dashboard.vue",
+      "to": "app/features/requests/components/RequestState.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/dashboard.vue",
+      "to": "app/features/requests/components/RequestList.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/faq.vue",
+      "to": "shared/data/help.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/pages/faq.vue",
+      "to": "app/composables/usePublicSearch.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/faq.vue",
+      "to": "app/composables/usePageSeo.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/help.vue",
+      "to": "app/components/KnowledgeListing.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/index.vue",
+      "to": "app/composables/usePageSeo.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/login.vue",
+      "to": "app/utils/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/pages/login.vue",
+      "to": "app/composables/useAuth.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/notifications.vue",
+      "to": "app/features/notifications/composables/useNotifications.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/pages/notifications.vue",
+      "to": "app/features/requests/components/RequestState.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/profile.vue",
+      "to": "app/types/workflow.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/pages/profile.vue",
+      "to": "app/utils/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/pages/profile.vue",
+      "to": "app/composables/useWorkflow.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/profile.vue",
+      "to": "app/composables/useToast.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/profile.vue",
+      "to": "app/components/PersonAvatar.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/register.vue",
+      "to": "app/utils/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/pages/register.vue",
+      "to": "app/composables/useAuth.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/requests/index.vue",
+      "to": "app/features/requests/components/RequestsOverview.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/requests/new.vue",
+      "to": "shared/utils/request-input.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/pages/requests/new.vue",
+      "to": "app/utils/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/pages/requests/new.vue",
+      "to": "shared/utils/request-options.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/pages/requests/new.vue",
+      "to": "app/composables/useAuth.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/requests/new.vue",
+      "to": "app/composables/useCatalogs.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/requests/new.vue",
+      "to": "app/composables/useRequestActions.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/requests/new.vue",
+      "to": "app/composables/useRequestDraft.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/requests/new.vue",
+      "to": "app/features/requests/components/RequestsOverview.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/requests/new.vue",
+      "to": "app/components/AppModal.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/requests/[id].vue",
+      "to": "shared/utils/sla.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/pages/requests/[id].vue",
+      "to": "app/types/workflow.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/pages/requests/[id].vue",
+      "to": "app/utils/requests.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/pages/requests/[id].vue",
+      "to": "app/stores/requestUi.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/pages/requests/[id].vue",
+      "to": "app/utils/api.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/pages/requests/[id].vue",
+      "to": "shared/utils/request-rules.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/pages/requests/[id].vue",
+      "to": "app/composables/useAuth.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/requests/[id].vue",
+      "to": "app/composables/useRequests.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/requests/[id].vue",
+      "to": "app/composables/useRequestActions.ts",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/requests/[id].vue",
+      "to": "app/features/requests/components/RequestDetailLoading.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/requests/[id].vue",
+      "to": "app/components/ErrorContent.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/requests/[id].vue",
+      "to": "app/features/requests/components/RequestState.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/requests/[id].vue",
+      "to": "app/features/requests/components/RequestFeedback.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/requests/[id].vue",
+      "to": "app/components/StatusBadge.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/requests/[id].vue",
+      "to": "app/components/PriorityBadge.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/requests/[id].vue",
+      "to": "app/features/comments/components/RequestComments.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/requests/[id].vue",
+      "to": "app/features/requests/components/RequestTimeline.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/requests/[id].vue",
+      "to": "app/features/attachments/components/RequestAttachments.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/pages/requests/[id].vue",
+      "to": "app/features/requests/components/RequestActionModal.vue",
+      "implicit": true
+    },
+    {
+      "from": "app/stores/requestUi.ts",
+      "to": "app/features/requests/state/requestUi.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/types/workflow.ts",
+      "to": "shared/types/request.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/types/workflow.ts",
+      "to": "shared/types/workflow.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/utils/api.ts",
+      "to": "app/features/requests/mapRequest.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/utils/api.ts",
+      "to": "app/lib/api-errors.ts",
+      "implicit": false
+    },
+    {
+      "from": "app/utils/requests.ts",
+      "to": "shared/utils/request-options.ts",
+      "implicit": false
+    }
+  ],
+  "violations": [],
+  "cycles": []
+}

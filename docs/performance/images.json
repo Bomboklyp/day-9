@@ -1,0 +1,28 @@
+{
+  "source": {
+    "path": "public/images/octagon.png",
+    "width": 480,
+    "height": 480,
+    "bytes": 5735
+  },
+  "variants": [
+    {
+      "path": "public/images/octagon-256.webp",
+      "width": 256,
+      "bytes": 12716,
+      "selected": false
+    },
+    {
+      "path": "public/images/octagon-384.webp",
+      "width": 384,
+      "bytes": 20692,
+      "selected": false
+    },
+    {
+      "path": "public/images/octagon-480.webp",
+      "width": 480,
+      "bytes": 4218,
+      "selected": true
+    }
+  ]
+}

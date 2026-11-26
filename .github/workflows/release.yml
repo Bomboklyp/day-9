@@ -1,0 +1,81 @@
+name: Release checks
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    services:
+      postgres:
+        image: postgres:18.7-bookworm@sha256:e742a2668255221388004f3a42b6150a2103f5054ab3a4a93ae9e4f01e551c35
+        env:
+          POSTGRES_DB: workflow
+          POSTGRES_USER: workflow
+          POSTGRES_PASSWORD: workflow_ci_only
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U workflow -d workflow"
+          --health-interval 5s --health-timeout 3s --health-retries 20
+    env:
+      DATABASE_URL: postgresql://workflow:workflow_ci_only@127.0.0.1:5432/workflow
+      NUXT_PUBLIC_SITE_URL: http://127.0.0.1:3008
+      NUXT_TELEMETRY_DISABLED: "1"
+      DEBUG: ""
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm run release:scan
+      - run: npm audit --audit-level=moderate
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm run arch:check
+      - run: npm test
+      - run: npm run build
+      - run: npm run test:release
+      - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
+        if: always()
+        with:
+          name: release-checks
+          include-hidden-files: true
+          path: |
+            .verification/day9/report.json
+            .verification/day9/e2e-result.json
+            .verification/day9/playwright
+            .verification/day9/screens
+          retention-days: 7
+  compose:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
+        with:
+          node-version-file: .nvmrc
+      - run: node --experimental-strip-types tools/compose-env.ts
+      - run: docker compose --env-file .env.compose -p workflow-release-ci config --quiet
+      - run: docker compose --env-file .env.compose -p workflow-release-ci up -d --build --wait --wait-timeout 180
+      - run: node --experimental-strip-types tools/smoke-compose.ts
+      - name: Runtime database role is not superuser
+        run: |
+          role="$(docker compose --env-file .env.compose -p workflow-release-ci exec -T db psql -U postgres -d workflow -tAc "SELECT rolsuper FROM pg_roles WHERE rolname='workflow'")"
+          test "$role" = "f"
+      - run: docker compose --env-file .env.compose -p workflow-release-ci restart db app
+      - run: node --experimental-strip-types tools/smoke-compose.ts --persisted
+      - if: failure()
+        run: docker compose --env-file .env.compose -p workflow-release-ci logs --no-color --tail 100
+      - if: always()
+        run: docker compose --env-file .env.compose -p workflow-release-ci down --volumes

@@ -1,0 +1,17 @@
+node_modules
+.nuxt
+.output
+.git
+.env
+.env.*
+!.env.example
+!.env.compose.example
+.tools
+.verification
+*.log
+*.zip
+*.bundle
+design
+Скриншоты
+docs/media
+docs/performance

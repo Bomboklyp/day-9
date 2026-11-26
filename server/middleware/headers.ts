@@ -1,0 +1,11 @@
+import { defineEventHandler, setHeaders } from "h3";
+
+export default defineEventHandler((event) => {
+  setHeaders(event, {
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+    "Content-Security-Policy": "frame-ancestors 'none'; base-uri 'self'; object-src 'none'",
+  });
+});

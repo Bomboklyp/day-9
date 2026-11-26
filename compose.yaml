@@ -1,0 +1,62 @@
+name: workflow
+
+x-database: &database
+  PGHOST: db
+  PGPORT: "5432"
+  PGDATABASE: workflow
+  PGUSER: workflow
+  PGPASSWORD: ${WORKFLOW_DB_PASSWORD:?Run npm run compose:env first}
+
+services:
+  db:
+    image: postgres:18.7-bookworm@sha256:e742a2668255221388004f3a42b6150a2103f5054ab3a4a93ae9e4f01e551c35
+    environment:
+      POSTGRES_DB: workflow
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Run npm run compose:env first}
+      WORKFLOW_DB_PASSWORD: ${WORKFLOW_DB_PASSWORD:?Run npm run compose:env first}
+    volumes:
+      - pgdata:/var/lib/postgresql
+      - ./database/docker-init.sh:/docker-entrypoint-initdb.d/10-workflow.sh:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U workflow -d workflow"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+
+  migrate:
+    build:
+      context: .
+      target: migrate
+    environment: *database
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: "no"
+
+  app:
+    build:
+      context: .
+      target: runtime
+      args:
+        NUXT_PUBLIC_SITE_URL: ${NUXT_PUBLIC_SITE_URL:-http://localhost:3008}
+    environment:
+      <<: *database
+      NUXT_PUBLIC_SITE_URL: ${NUXT_PUBLIC_SITE_URL:-http://localhost:3008}
+    ports:
+      - "127.0.0.1:${APP_PORT:-3008}:3000"
+    depends_on:
+      db:
+        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m,mode=1777
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    restart: unless-stopped
+
+volumes:
+  pgdata:
